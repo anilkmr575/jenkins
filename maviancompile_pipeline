@@ -1,0 +1,4 @@
+node('master'){
+git 'gitrepolink.git'
+bat 'mvn compile'
+}
